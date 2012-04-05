@@ -1,0 +1,78 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; line-height: 16px; padding-bottom: 10px;}
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; margin-top: 0px; margin-bottom: 0px; }
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033CC; margin-top: 0px; margin-bottom: 0px; }
+.titel { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000}
+.untertitel { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033CC}
+.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; line-height: 16px; text-align: left;}
+.text_klein { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-weight: normal}
+.text_blau { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #0033CC}
+.text_hoch { vertical-align:top; font-size: 10px; font-weight: normal;}
+.text_klein_rot { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-weight: normal; color: #FF0000}
+.path { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal}
+.bildlegende, .bildlegende td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-weight: normal; color: #666666}
+.anweisung { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033CC}
+.auszeichnung { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033CC}
+.transkription { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 16px}
+.transkription_auszeichnung { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 16px; font-weight: bold;}
+.transkription_auszeichnung_blau { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 16px; font-weight: bold; color: #0033CC;}
+.transkription_klein { font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; line-height: 14px; font-weight: normal}
+.transkription_auszeichnung_klein { font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; line-height: 14px; font-weight: bold;}
+.transkription_blau { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 16px; font-weight: normal; color: #0033CC;}
+.blau-fett { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033CC}
+.blau-normal { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #0033CC}
+.blau-klein { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-weight: normal; color: #0033CC }
+td, th { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal }
+.tab_grau { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; background-color:#CCCCCC; }
+.tab_rot { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; background-color:#FF0000; background-image:url(images/back_rot.gif);}
+.tab_gruen { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; background-color:#00FF00; background-image:url(images/back_gruen.gif);}
+.tab_kopf { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; background-color:#CCCCCC;}
+/* rechts { text-align:right; } */
+form { display:inline; } 
+form#Anmeldung { display:block; background-color: #F4F7F7; border:1px solid #00247D; padding: 0 10px; }
+#wayf_submit_button { float: left !important }
+.tabelle_rand_blau { border-collapse:collapse; border-width:1px; border-style:solid; border-color:#0000CC;}
+.glossar, .nav { white-space:nowrap; }
+.hochgestellt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7px; font-weight: normal; vertical-align:top; }
+input { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+textarea { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+a:link { color:#0033CC; }
+a:visited { color:#0033CC; }
+a:hover { color:#000000; }
+a:active { color:#000000; }
+a:focus { color:#000000; }
+.qvtitel { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #0033CC; background-color: #cccccc; }
+.tabelle_hgfarbe td { background-color: #99CCFF; }
+.tabelle_grau td { background-color: #CCCCCC; }
+.osterkalender td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; background-color: #CCCCCC; }
+.osterkalender .hell { background-color: #EEEEEE; }
+.hilite_gelb { background-color: #FFFF00; }
+.hilite_gruen { background-color: #00FF00; }
+.hilite_tuerkis { background-color: #00FFFF; }
+.hilite_violett { background-color: #FF00FF; }
+.hilite_hellblau { background-color: #99CCFF; }
+.gruen { color: #00CC00; }
+.rot { color: #FF0000; }
+.blau { color: #0033CC; }
+.gelb { color: #FFFF00; }
+.tuerkis { color: #00DFDF; }
+.box { border: 1px solid black }
+ol { margin-left: 2em; padding-left: 0; }
+.aufzaehlung { margin-top: 0; margin-left: 2em; padding-left: 0; list-style-image:url(images/aufzaehlung.gif) }
+.hg_dunkelgrau { background-color: #999; }
+.hg_weiss { background-color: #fff; }
+.set_beschreibung {
+	background-color:#CCCCCC;
+	padding: 5px;
+	margin-top: 3px;
+}
+
+/* isearch */
+font { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal;}
+.isearch_highlight
+{
+    font-weight:bold;
+}
+.isearch_search
+{
+    font-style:italic;
+}

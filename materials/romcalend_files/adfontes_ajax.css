@@ -1,0 +1,374 @@
+.aufgabe {
+	border: 1px dotted #000000;
+	background-color: #CCCCCC;
+	width: 100%-22px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal;
+	padding: 10px;
+	line-height: 16px;
+	display: block;
+	text-align:right;
+	position: relative;
+}
+.innenflaeche {
+	text-align:left;
+}
+.weiss {
+	width: 100%-8px;
+	padding: 3px;
+	padding-bottom: 6px;
+	border: 1px dotted #000000;
+	background-color: #FFFFFF;
+}
+.grau {
+	width: 100%;
+	background-color: #CCCCCC;
+}
+.bold {
+	font-weight: bold;
+}
+#feedback, .feedback {
+	background-color: #99CCFF;
+	width: 100%-6px;
+	padding: 3px;
+	margin-top: 10px;
+	text-align: left;
+	min-height: 32px;
+}
+* html #feedback, * html .feedback {
+	height: 38px;
+}
+.eingabe_halb {
+	width: 175px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe_dreiviertel {
+	width: 262px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe_ganz {
+	width: 359px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe1 {
+	width: 18px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe2 {
+	width: 25px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe3 {
+	width: 32px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe_80 {
+	width: 80px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.eingabe_100 {
+	width: 100px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 4px;
+	margin-right: 5px;
+	text-align: center;
+}
+.eingabe_100_links {
+	width: 100px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 4px;
+	margin-right: 5px;
+	text-align: left;
+}
+.eingabe_115_links {
+	width: 115px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 4px;
+	margin-right: 5px;
+	text-align: left;
+}
+.eingabe_183_links {
+	width: 183px;
+	margin: 2px 0;
+	text-align: left;
+}
+.eingabe_200 {
+	width: 200px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+}
+.eingabe_300 {
+	width: 300px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+}
+.eingabe_650 {
+	width: 650px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+}
+.textarea_200 {
+	width: 200px;
+	margin-top:1px;
+	font-size: 12px;
+	overflow:hidden;
+	padding: 2px 2px;
+	opacity: 0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+.textarea_300 {
+	width: 300px;
+	margin-top:1px;
+	font-size: 12px;
+	overflow:hidden;
+	padding: 2px 2px;
+	opacity: 0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+.textarea_265 {
+	width: 265px;
+	margin: 2px 0;
+	font-size: 12px;
+	overflow:hidden;
+}
+.innenflaeche table {
+	line-height: 16px;
+}
+.weiss table {
+	width: 351px;
+}
+.falsch {
+	color: red;
+}
+.falsch_hg {
+	background-color: red;
+}
+.taste_tipps {
+	float:right;
+}
+.tastenfeld {
+	height: 27px;
+	text-align: left;
+	margin-top: 10px;
+}
+.rechts {
+	text-align: right;
+}
+.textfeld_tastenhoehe {
+	height: 23px;
+	width: 171px;
+	background-color: white;
+	border-top: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding-top:2px;
+	padding-left:2px;
+}
+* html .textfeld_tastenhoehe {
+	height: 26px;
+}
+.eingabe_tastenhoehe {
+	border: none;
+	width: 169px;
+}
+.tabelle_eingabefeld {
+	background-color: white;
+	border-top: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding-left:2px;
+}
+.taste_halb {
+	float: right;
+	margin-left: 5px;
+}
+
+.draggable {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	padding: 2px 10px;
+	position: absolute;
+}
+.draggable_100 {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 2px 0px;
+	position: relative;
+	width: 100px;
+	overflow: hidden;
+}
+.draggable_115 {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 1px 2px;
+	position: relative;
+	width: 115px;
+	overflow: hidden;
+}
+.draggable_200 {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 2px 5px;
+	position: relative;
+	width: 200px;
+	text-align: left;
+}
+.draggable_300 {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 2px 5px;
+	position: relative;
+	width: 300px;
+	text-align: left;
+}
+.draggable_standard {
+	color: #0033CC;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 2px 5px;
+	position: relative;
+	text-align: left;
+}
+.width_100 {
+	width: 100px;
+}
+.width_183 {
+	width: 171px;
+}
+.width_265 {
+	width: 265px;
+}
+.width_280 {
+	width: 280px;
+}
+.droppable_hover {
+	border-color: #0033CC;
+}
+.droppable_text_hover {
+	color: #0033CC;
+}
+.droppable_text_hover_bold {
+	color: #0033CC;
+	font-weight: bold;
+}
+.restart {
+	font-size: 10px;
+	float:left
+}
+/* --- blaettern --- */
+.blaettern_fuss {
+	position: relative;
+	border: 1px dotted #000000; 
+	border-top: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.blaettern_tasten {
+	position: absolute;
+	top: 4px;
+	right: 8px;
+}
+/* --- tooltip --- */
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #666;
+	background-color: #FFFFAA;
+	padding: 2px;
+	opacity: 0.9;
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal;
+
+}
+#tooltip h3, #tooltip div { margin: 0; }
+/* --- rte --- */
+.rte {
+	width: 100%;
+}
+.rte_halb {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+.rte-zone {margin:0; padding:0; border:1px #999 solid; clear:both; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; margin-top: 10px;  background-color: white; width: 759px;}
+.rte-zone textarea {padding:0; margin:0; border:0; position:relative; left:0; clear:both;}
+.rte-resizer {display:none;}
+.rte-toolbar {display:none;}
+.rte-panel {display:none;}
+
+/* vergroesserung */
+.imagecontainer {
+	border: none;
+	margin-bottom: -18px;
+	padding-bottom: 0;
+	position:relative;
+	overflow:hidden;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+	cursor: url('images/lupe.cur'), move\9
+}
+.imagecontainer .image {
+	position:relative
+}
+.imagecontainer .plus {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+/* tabellen */
+td.click {
+	background-color: red;
+}
+td.hover {
+	background-color: #FF6666;
+}
+/* eingabehilfe */
+div.eingabetasten {
+	text-align: left;
+}
+div.eingabetasten a {
+	text-decoration: none;
+	background-color: white;
+}
+div.eingabetasten a:hover {
+	background-color: #336699;
+}
+div.taste {
+	text-align: center;
+	border: 1px dotted black;
+	width: 20px;
+	display: inline;
+}
+
