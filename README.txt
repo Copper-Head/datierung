@@ -1,8 +1,8 @@
 *********** READ ME file **********
 April 1st 2012
 
-A someday-to-be program for converting roman/medieval dates into conventional
-formats written by Ilia Alexander Kurenkov.
+A potential someday-to-be program for converting roman/medieval dates into 
+conventional formats written by Ilia Alexander Kurenkov.
 
 ilia.kurenkov@gmail.com
 
