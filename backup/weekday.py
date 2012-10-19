@@ -1,4 +1,28 @@
-'''This file contains method and vars needed to find the day of the week given
+'''
+Datierung. 
+An exercise in Python. Converts Latin dates found in medieval chronicles
+and documents into conventional format.
+
+Copyright (C) 2012  Ilia Kurenkov
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+For questions feel free to email me:
+ilia kurenkov at gmail
+
+
+This file contains method and vars needed to find the day of the week given
 a date (in DD/MM format) and sunday letter. It might be useful to combine
 the contents of this file with some other module
 '''

@@ -1,9 +1,10 @@
 *********** README file **********
 
 N.B.DESCRIPTION
-This is a "baby" date converter program written by Ilia Kurenkov
+This is date converter program written by Ilia Kurenkov 
 (ilia.kurenkov@gmail.com) as an excercise in python. As such it can be 
-considered free software licensed under the GPL.
+considered free software licensed under the GPL. For more information see
+LICENSE.txt
 
 I got the idea for this program while doing a homework assignment for a 
 medieval history class at the University of Konstanz.
